@@ -18,7 +18,7 @@ COPY . .
 RUN npm run build
 
 # Exponha a porta 3000 para acesso externo
-EXPOSE 3000
+EXPOSE 8085
 
 # Comando padrão a ser executado ao iniciar o contêiner
 CMD ["node", "dist/app.js"]
